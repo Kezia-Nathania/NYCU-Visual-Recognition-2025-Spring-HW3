@@ -11,7 +11,7 @@ The objective of this homework is to detect and segment individual cells while c
   cd NYCU-Visual-Recognition-2025-Spring-HW3  
 ### Install dependencies:  
   pip install -r requirements.txt  
-### Run the mask_rcnn_cell_segmentation.ipynb files
+### Run the mask_rcnn_cell_segmentation.ipynb file
 
 ## Performance Snapshot
 ![Alt text](PerformanceSnapshot.png)
