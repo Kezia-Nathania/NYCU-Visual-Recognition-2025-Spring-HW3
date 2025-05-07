@@ -3,10 +3,7 @@ StudentID  : 312540021
 Name       : Kezia Nathania (林紀霞)  
 
 ## Introduction 
-In this homework there are two tasks: 
-1. Predict class and bounding box of each digit in the image 
-2. Recognize the number of detected digits in the image   
-The experiment explores methods such as Non-Maximum Supression, customized anchor, and thresholding.
+The objective of this homework is to detect and segment individual cells while correctly classifying each instance using Mask R-CNN. To enhance the model's robustness and accuracy, the study incorporates both training data augmentation and test-time augmentation (TTA). The effectiveness of these techniques is evaluated through a series of experiments, highlighting their contribution to improved segmentation performance.
 
 ## How to Install
 ### Clone the repository:  
