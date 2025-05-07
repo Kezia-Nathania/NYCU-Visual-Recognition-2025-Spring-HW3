@@ -10,7 +10,7 @@ The objective of this homework is to detect and segment individual cells while c
   git clone https://github.com/Kezia-Nathania/NYCU-Visual-Recognition-2025-Spring-HW3.git  
   cd NYCU-Visual-Recognition-2025-Spring-HW3  
 ### Install dependencies:  
-  pip install -r requirements.txt  
+  pip install -r requirement.txt  
 ### Run the mask_rcnn_cell_segmentation.ipynb file
 
 ## Performance Snapshot
