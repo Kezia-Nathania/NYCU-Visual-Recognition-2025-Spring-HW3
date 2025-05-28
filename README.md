@@ -1,17 +1,19 @@
-# NYCU-Visual-Recognition-2025-Spring-HW3
+# NYCU-Visual-Recognition-2025-Spring-HW4
 StudentID  : 312540021  
 Name       : Kezia Nathania (林紀霞)  
 
 ## Introduction 
-The objective of this homework is to detect and segment individual cells while correctly classifying each instance using Mask R-CNN. To enhance the model's robustness and accuracy, the study incorporates both training data augmentation and test-time augmentation (TTA). The effectiveness of these techniques is evaluated through a series of experiments, highlighting their contribution to improved segmentation performance.
+The task of this homework is image restoration for two types of degradation, rain and snow. The dataset is split into training/validation with 1600 pairs of clean and degraded images for each degradation type, and the testing set consists of 50 degraded images for each type. This restoration task is evaluated using PSNR (Peak Signal-to-Noise Ratio).  
 
 ## How to Install
 ### Clone the repository:  
-  git clone https://github.com/Kezia-Nathania/NYCU-Visual-Recognition-2025-Spring-HW3.git  
-  cd NYCU-Visual-Recognition-2025-Spring-HW3  
+  git clone https://github.com/Kezia-Nathania/NYCU-Visual-Recognition-2025-Spring-HW4.git  
+  cd NYCU-Visual-Recognition-2025-Spring-HW4  
 ### Install dependencies:  
   pip install -r requirement.txt  
-### Run the mask_rcnn_cell_segmentation.ipynb file
+### Run the train.py file  
+  python train.py --epochs 55 --ckpt_dir "checkpoint_dir_path"
+### Run the testing.py file  
 
 ## Performance Snapshot
 ![Alt text](PerformanceSnapshot.png)
